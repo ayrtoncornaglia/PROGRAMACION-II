@@ -46,7 +46,7 @@ public class OperacionesMatematicas {
     }
     
     public static void main(String[] args) {
-        OperacionesMatematicasPorElUsuario operaciones = new OperacionesMatematicasPorElUsuario();
+        OperacionesMatematicas operaciones = new OperacionesMatematicas();
         
         System.out.println("Ingrese el primer numero:");
         double numero1 = scanner.nextDouble();
