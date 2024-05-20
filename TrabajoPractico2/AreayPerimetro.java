@@ -50,7 +50,7 @@ public class AreayPerimetro {
     }
 
     public static void main(String[] args) {
-        CalculadoraFiguras calculadora = new CalculadoraFiguras();
+        AreayPerimetro calculadora = new AreayPerimetro();
 
         Scanner scanner = new Scanner(System.in);
         int opcion;
