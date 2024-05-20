@@ -7,45 +7,37 @@ public class OperacionesMatematicas {
     
     private static Scanner scanner = new Scanner(System.in);
     
-    // Método para sumar dos números enteros
     public int sumar(int a, int b) {
         return a + b;
     }
-    
-    // Método para sumar dos números decimales
+
     public double sumar(double a, double b) {
         return a + b;
     }
-    
-    // Método para restar dos números enteros
+
     public int restar(int a, int b) {
         return a - b;
     }
-    
-    // Método para restar dos números decimales
+
     public double restar(double a, double b) {
         return a - b;
     }
-    
-    // Método para multiplicar dos números enteros
+
     public int multiplicar(int a, int b) {
         return a * b;
     }
-    
-    // Método para multiplicar dos números decimales
+
     public double multiplicar(double a, double b) {
         return a * b;
     }
-    
-    // Método para dividir dos números enteros
+
     public int dividir(int a, int b) {
         if (b == 0) {
             throw new ArithmeticException("No se puede dividir por cero");
         }
         return a / b;
     }
-    
-    // Método para dividir dos números decimales
+
     public double dividir(double a, double b) {
         if (b == 0) {
             throw new ArithmeticException("No se puede dividir por cero");
