@@ -9,21 +9,18 @@ public class AreayPerimetro {
         scanner = new Scanner(System.in);
     }
 
-    // Método para calcular el área de un cuadrado
     public double calcularAreaCuadrado() {
         System.out.print("Ingrese el lado del cuadrado: ");
         double lado = scanner.nextDouble();
         return lado * lado;
     }
 
-    // Método para calcular el perímetro de un cuadrado
     public double calcularPerimetroCuadrado() {
         System.out.print("Ingrese el lado del cuadrado: ");
         double lado = scanner.nextDouble();
         return 4 * lado;
     }
 
-    // Método para calcular el área de un rectángulo
     public double calcularAreaRectangulo() {
         System.out.print("Ingrese la base del rectangulo: ");
         double base = scanner.nextDouble();
@@ -32,7 +29,6 @@ public class AreayPerimetro {
         return base * altura;
     }
 
-    // Método para calcular el perímetro de un rectángulo
     public double calcularPerimetroRectangulo() {
     System.out.print("Ingrese la base del rectangulo: ");
     double base = scanner.nextDouble();
@@ -41,14 +37,12 @@ public class AreayPerimetro {
     return 2 * (base + altura);
     }
 
-    // Método para calcular el área de un círculo
     public double calcularAreaCirculo() {
         System.out.print("Ingrese el radio del circulo: ");
         double radio = scanner.nextDouble();
         return Math.PI * radio * radio;
     }
 
-    // Método para calcular el perímetro de un círculo
     public double calcularPerimetroCirculo() {
         System.out.print("Ingrese el radio del circulo: ");
         double radio = scanner.nextDouble();
