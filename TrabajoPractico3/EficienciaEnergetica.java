@@ -8,9 +8,9 @@ public class EficienciaEnergetica {
     public static void main(String[] args) {
 
         ArrayList<Double> consumos = new ArrayList<>();
-        consumos.add(90.0);
-        consumos.add(40.0);
-        consumos.add(50.0);
+        consumos.add(70.0);
+        consumos.add(55.0);
+        consumos.add(45.0);
         consumos.add(35.0);
 
       
